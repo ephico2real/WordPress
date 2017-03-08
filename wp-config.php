@@ -30,8 +30,10 @@ define('DB_PASSWORD', $_ENV['MYSQL_PASSWORD']);
 
 /** MySQL hostname */
 /**define('DB_HOST', $_ENV['MYSQL_SERVICE_HOST'] . ':' . $_ENV['MYSQL_SERVICE_PORT']);*/
-define('DB_HOST', $_ENV['MYSQL_SERVICE_HOST']);
-define('DB_PORT', $_ENV['MYSQL_SERVICE_PORT']);
+define('DB_HOST', $_ENV['MYSQLSVC_SERVICE_HOST']);
+define('DB_PORT', $_ENV['MYSQLSVC_SERVICE_PORT']);
+
+/**define('DB_HOST', $_ENV['MYSQL_SERVICE_HOST']);*/
 /**define('DB_HOST', $_ENV['MYSQL_SERVICE_HOST']);*/
 
 /** Database Charset to use in creating database tables. */
